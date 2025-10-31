@@ -6,7 +6,7 @@ import { getDatabase,
          remove } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-database.js"
 
 const firebaseConfig = {
-    databaseURL: process.env.DATABASE_URL
+    databaseURL: "https://www.gstatic.com/firebasejs/12.5.0/firebase-database.js"
 }
 
 const app = initializeApp(firebaseConfig)
